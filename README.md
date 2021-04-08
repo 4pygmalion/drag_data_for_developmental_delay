@@ -10,8 +10,18 @@ This logs were extracted from DoBrain for children with developmental delay
 We also included interpretation methods (partial grad-cam due to multi-inputs)
 
 
+
 ##### usage
 ```python
+
+# building model
+from model import build_1DCNN
+
+TIME_STAMP = 100
+N_FEATURES_TS = 12  # Multivariate timeseries
+N_FEATRUES_AUX = 25  # Static variables
+model = build_1DCNN(TIME_STAMP, N_FEATURES_TS, N_FEATRUES_AUX)
+
 
 # explanation
 from eXplainableAI.model_specific.CNN import GradCAM
