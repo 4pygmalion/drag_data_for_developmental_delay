@@ -5,6 +5,14 @@
 Multi-input (multi-modal) deep learning using game touch log.
 This logs were extracted from DoBrain for children with developmental delay
 
+
+
+
 ##### Interpretation
 We also included interpretation methods (partial grad-cam due to multi-inputs)
 
+
+
+##### Requriment
+tensorflow 2.x
+seaborn 0.11.x
