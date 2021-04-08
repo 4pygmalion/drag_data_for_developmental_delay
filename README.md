@@ -1,17 +1,17 @@
 # Lightweight deep learning (1D CNN) using drag data for developmental delay
 
 
-##### Architecutre
+#### Architecutre
 Multi-input (multi-modal) deep learning using game touch log.
 This logs were extracted from DoBrain for children with developmental delay
 
 
-##### Interpretation
+#### Interpretation
 We also included interpretation methods (partial grad-cam due to multi-inputs)
 
 
 
-##### usage
+#### Ssage
 ```python
 
 # building model
@@ -30,6 +30,6 @@ g_cam.generate_grad_cam()
 
 ```
 
-##### Requriment
+#### Requriment
 tensorflow 2.x
 seaborn 0.11.x
