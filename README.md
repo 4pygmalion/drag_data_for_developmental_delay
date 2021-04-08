@@ -11,7 +11,7 @@ We also included interpretation methods (partial grad-cam due to multi-inputs)
 
 
 
-#### Ssage
+#### Usage
 ```python
 
 # building model
