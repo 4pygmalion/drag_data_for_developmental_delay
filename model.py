@@ -55,7 +55,7 @@ def build_1DCNN(timestamp, n_feature_ts, n_feature_aux):
     aux_x = GlobalAveragePooling1D()(aux_x)
 
     con_x = concatenate([x, aux_x])
-    con_x = Dense(1, activation='sigmoid')(con_x)
+    con_x = Dense(2, activation='sigmoid')(con_x)
 
     model = tf.keras.models.Model([x_main, aux_input], con_x)
 
