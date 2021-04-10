@@ -17,7 +17,7 @@ figure (A) Grad-CAM result of children with typical development
 
 figure (B) Grad-CAM result of children with developmental delay
 
-#### Usage
+#### How to use?
 ```python
 
 # building model
@@ -39,3 +39,8 @@ g_cam.generate_grad_cam()
 #### Requriment
 tensorflow 2.x
 seaborn 0.11.x
+
+#### Install
+```bash
+$ git clone https://github.com/4pygmalion/drag_data_for_developmental_delay
+```
