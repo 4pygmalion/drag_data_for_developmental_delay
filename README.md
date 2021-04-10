@@ -5,11 +5,17 @@
 Multi-input (multi-modal) deep learning using game touch log.
 This logs were extracted from DoBrain for children with developmental delay
 
+![image](https://user-images.githubusercontent.com/45510932/114259359-574cd100-9a08-11eb-9149-bf787d9aed7c.png)
+
 
 #### Interpretation
 We also included interpretation methods (partial grad-cam due to multi-inputs)
 
+figure (A) Grad-CAM result of children with typical development
 
+![image](https://user-images.githubusercontent.com/45510932/114259372-6469c000-9a08-11eb-82dd-d756460ff309.png)
+
+figure (B) Grad-CAM result of children with developmental delay
 
 #### Usage
 ```python
